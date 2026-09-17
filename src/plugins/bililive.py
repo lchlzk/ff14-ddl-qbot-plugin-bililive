@@ -16,7 +16,7 @@ from nonebot.matcher import Matcher
 from nonebot.params import CommandArg
 
 from bot_tools import community
-from bot_tools.bililive import (
+from qbot_bililive.service import (
     BiliLiveStore, Notice, close_browser, dispatch, fetch_dynamic,
     fetch_dynamic_card, fetch_live,
 )

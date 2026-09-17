@@ -12,8 +12,9 @@ the polling model and first-run offset behaviour from:
 
 The native QQ adapter integration, message delivery, persistence, permissions,
 card rendering and later polling improvements were rewritten or extended in
-this project in 2026. The shared implementation remains in the separately
-published `ff14-ddl-qbot` repository.
+this project in 2026. The complete Bilibili-specific implementation is included
+in this repository under `src/qbot_bililive` and `src/plugins/bililive.py`.
+Only common bot services are provided by the `ff14-ddl-qbot` core.
 
 The license text is included as this repository's `LICENSE`. The upstream
 "or later" grant permits redistribution under version 3.
