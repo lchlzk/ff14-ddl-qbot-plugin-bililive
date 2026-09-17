@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ff14-ddl-qbot-plugin-bililive"
+version = "0.1.0"
+description = "B站动态与直播订阅 plugin for ff14-ddl-qbot"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "AGPL-3.0-only"
+dependencies = ["nonebot2>=2.5,<3", "nonebot-adapter-qq>=1.7,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+include = ["plugins*"]
